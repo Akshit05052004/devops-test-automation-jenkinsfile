@@ -12,5 +12,10 @@ pipeline {
                 sh 'echo "500105015"'
             }
         }
+        stage('display batch') {
+            steps {
+                sh 'echo "3"'
+            }
+        }
     }
 }
